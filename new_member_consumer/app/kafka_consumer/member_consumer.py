@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from kafka_gym.kafka_directory.consumer import consume
+from kafka_gym.kafka_settings.consumer import consume
 import new_trainer_consumer.app.service.trainer_service as member_service
 import os
 

@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from kafka_gym.kafka_directory.producer import produce
+from kafka_gym.kafka_settings.producer import produce
 import os
 
 load_dotenv(verbose=True)

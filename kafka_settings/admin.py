@@ -1,9 +1,9 @@
 import os
 from ensurepip import bootstrap
 from dotenv import load_dotenv
-from kafka_directory import KafkaAdminClient
-from kafka_directory.admin import NewTopic
-from kafka_directory.errors import TopicAlreadyExistsError
+from kafka_settings import KafkaAdminClient
+from kafka_settings.admin import NewTopic
+from kafka_settings.errors import TopicAlreadyExistsError
 
 load_dotenv(verbose=True)
 
